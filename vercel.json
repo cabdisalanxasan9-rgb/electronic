@@ -6,9 +6,10 @@
             "runtime": "vercel-php@0.7.1"
         }
     },
+    "outputDirectory": "public",
     "routes": [
         {
-            "src": "/(css|js|images|favicon.ico|robots.txt|assets)(.*)",
+            "src": "/(css|js|images|favicon.ico|robots.txt|assets|build)(.*)",
             "dest": "/public/$1$2"
         },
         {
