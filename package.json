@@ -3,6 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "vercel-build": "echo 'Skipping Vite build for Vercel, already built locally.'",
         "build": "vite build",
         "dev": "vite"
     },
